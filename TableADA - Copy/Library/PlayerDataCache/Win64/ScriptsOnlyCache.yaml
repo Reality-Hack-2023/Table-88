@@ -1,0 +1,3488 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    Assembly-CSharp.dll:
+    - AsteroidsManager
+    - BallTrigger
+    - PlanetMover
+    - SunBursts
+    - WFX_Demo_DeleteAfterDelay
+    - ZEDLight
+    Ultraleap.Tracking.Aggregation.dll:
+    - JointOcclusion
+    Ultraleap.Tracking.Core.dll:
+    - Leap.Unity.CapsuleHand
+    - Leap.Unity.HandEnableDisable
+    Ultraleap.Tracking.OpenXR.dll:
+    - Ultraleap.Tracking.OpenXR.HandTrackingFeature
+    Unity.CollabProxy.Editor.dll:
+    - Unity.Cloud.Collaborate.UserInterface.CollaborateWindow
+    Unity.InputSystem.dll:
+    - UnityEngine.InputSystem.InputSettings
+    - UnityEngine.InputSystem.InputSystemObject
+    - UnityEngine.InputSystem.RemoteInputPlayerConnection
+    Unity.RenderPipelines.Core.Runtime.dll:
+    - UnityEngine.Rendering.UI.DebugUIHandlerBitField
+    - UnityEngine.Rendering.UI.DebugUIHandlerButton
+    - UnityEngine.Rendering.UI.DebugUIHandlerCanvas
+    - UnityEngine.Rendering.UI.DebugUIHandlerColor
+    - UnityEngine.Rendering.UI.DebugUIHandlerContainer
+    - UnityEngine.Rendering.UI.DebugUIHandlerEnumField
+    - UnityEngine.Rendering.UI.DebugUIHandlerEnumHistory
+    - UnityEngine.Rendering.UI.DebugUIHandlerFloatField
+    - UnityEngine.Rendering.UI.DebugUIHandlerFoldout
+    - UnityEngine.Rendering.UI.DebugUIHandlerGroup
+    - UnityEngine.Rendering.UI.DebugUIHandlerHBox
+    - UnityEngine.Rendering.UI.DebugUIHandlerIndirectFloatField
+    - UnityEngine.Rendering.UI.DebugUIHandlerIndirectToggle
+    - UnityEngine.Rendering.UI.DebugUIHandlerIntField
+    - UnityEngine.Rendering.UI.DebugUIHandlerMessageBox
+    - UnityEngine.Rendering.UI.DebugUIHandlerPanel
+    - UnityEngine.Rendering.UI.DebugUIHandlerPersistentCanvas
+    - UnityEngine.Rendering.UI.DebugUIHandlerRow
+    - UnityEngine.Rendering.UI.DebugUIHandlerToggle
+    - UnityEngine.Rendering.UI.DebugUIHandlerToggleHistory
+    - UnityEngine.Rendering.UI.DebugUIHandlerUIntField
+    - UnityEngine.Rendering.UI.DebugUIHandlerVBox
+    - UnityEngine.Rendering.UI.DebugUIHandlerValue
+    - UnityEngine.Rendering.UI.DebugUIHandlerVector2
+    - UnityEngine.Rendering.UI.DebugUIHandlerVector3
+    - UnityEngine.Rendering.UI.DebugUIHandlerVector4
+    - UnityEngine.Rendering.UI.UIFoldout
+    - UnityEngine.Rendering.Volume
+    - UnityEngine.Rendering.VolumeProfile
+    Unity.RenderPipelines.Universal.Editor.dll:
+    - UnityEditor.Rendering.Universal.UniversalProjectSettings
+    Unity.RenderPipelines.Universal.Runtime.dll:
+    - UnityEngine.Rendering.Universal.Bloom
+    - UnityEngine.Rendering.Universal.ChannelMixer
+    - UnityEngine.Rendering.Universal.ChromaticAberration
+    - UnityEngine.Rendering.Universal.ColorAdjustments
+    - UnityEngine.Rendering.Universal.ColorCurves
+    - UnityEngine.Rendering.Universal.ColorLookup
+    - UnityEngine.Rendering.Universal.DepthOfField
+    - UnityEngine.Rendering.Universal.FilmGrain
+    - UnityEngine.Rendering.Universal.LensDistortion
+    - UnityEngine.Rendering.Universal.LiftGammaGain
+    - UnityEngine.Rendering.Universal.MotionBlur
+    - UnityEngine.Rendering.Universal.PaniniProjection
+    - UnityEngine.Rendering.Universal.PostProcessData
+    - UnityEngine.Rendering.Universal.ScreenSpaceAmbientOcclusion
+    - UnityEngine.Rendering.Universal.ShadowsMidtonesHighlights
+    - UnityEngine.Rendering.Universal.SplitToning
+    - UnityEngine.Rendering.Universal.Tonemapping
+    - UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
+    - UnityEngine.Rendering.Universal.UniversalAdditionalLightData
+    - UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset
+    - UnityEngine.Rendering.Universal.UniversalRenderPipelineGlobalSettings
+    - UnityEngine.Rendering.Universal.UniversalRendererData
+    - UnityEngine.Rendering.Universal.Vignette
+    - UnityEngine.Rendering.Universal.WhiteBalance
+    - UnityEngine.Rendering.Universal.XRSystemData
+    Unity.Rider.Editor.dll:
+    - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.ShaderGraph.Editor.dll:
+    - UnityEditor.ShaderGraph.SubGraphAsset
+    Unity.TextMeshPro.dll:
+    - TMPro.TMP_ColorGradient
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    Unity.XR.Management.Editor.dll:
+    - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
+    Unity.XR.Management.dll:
+    - UnityEngine.XR.Management.XRGeneralSettings
+    - UnityEngine.XR.Management.XRManagerSettings
+    Unity.XR.Oculus.dll:
+    - Unity.XR.Oculus.OculusLoader
+    - Unity.XR.Oculus.OculusSettings
+    Unity.XR.OpenXR.Editor.dll:
+    - UnityEditor.XR.OpenXR.OpenXRPackageSettings
+    Unity.XR.OpenXR.Features.ConformanceAutomation.dll:
+    - UnityEngine.XR.OpenXR.Features.ConformanceAutomation.ConformanceAutomationFeature
+    Unity.XR.OpenXR.Features.MockRuntime.dll:
+    - UnityEngine.XR.OpenXR.Features.Mock.MockRuntime
+    Unity.XR.OpenXR.Features.OculusQuestSupport.dll:
+    - UnityEngine.XR.OpenXR.Features.OculusQuestSupport.OculusQuestFeature
+    Unity.XR.OpenXR.Features.RuntimeDebugger.dll:
+    - UnityEngine.XR.OpenXR.Features.RuntimeDebugger.RuntimeDebuggerOpenXRFeature
+    Unity.XR.OpenXR.dll:
+    - UnityEngine.XR.OpenXR.Features.Interactions.EyeGazeInteraction
+    - UnityEngine.XR.OpenXR.Features.Interactions.HTCViveControllerProfile
+    - UnityEngine.XR.OpenXR.Features.Interactions.KHRSimpleControllerProfile
+    - UnityEngine.XR.OpenXR.Features.Interactions.MicrosoftHandInteraction
+    - UnityEngine.XR.OpenXR.Features.Interactions.MicrosoftMotionControllerProfile
+    - UnityEngine.XR.OpenXR.Features.Interactions.OculusTouchControllerProfile
+    - UnityEngine.XR.OpenXR.Features.Interactions.ValveIndexControllerProfile
+    - UnityEngine.XR.OpenXR.OpenXRSettings
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
+    - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventTrigger
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.ContentSizeFitter
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.HorizontalLayoutGroup
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.LayoutElement
+    - UnityEngine.UI.Mask
+    - UnityEngine.UI.ScrollRect
+    - UnityEngine.UI.Scrollbar
+    - UnityEngine.UI.Text
+    - UnityEngine.UI.Toggle
+    - UnityEngine.UI.VerticalLayoutGroup
+  serializedClasses:
+    Unity.RenderPipelines.Core.Runtime:
+    - UnityEngine.Rendering.BoolParameter
+    - UnityEngine.Rendering.ClampedFloatParameter
+    - UnityEngine.Rendering.ClampedIntParameter
+    - UnityEngine.Rendering.ColorParameter
+    - UnityEngine.Rendering.MinFloatParameter
+    - UnityEngine.Rendering.TextureParameter
+    - UnityEngine.Rendering.UI.DebugUIPrefabBundle
+    - UnityEngine.Rendering.Vector2Parameter
+    Unity.RenderPipelines.Universal.Runtime:
+    - UnityEngine.Rendering.Universal.PostProcessData/ShaderResources
+    - UnityEngine.Rendering.Universal.PostProcessData/TextureResources
+    - UnityEngine.Rendering.Universal.ScreenSpaceAmbientOcclusionSettings
+    - UnityEngine.Rendering.Universal.ScriptableRendererData/DebugShaderResources
+    - UnityEngine.Rendering.Universal.StencilStateData
+    - UnityEngine.Rendering.Universal.TonemappingModeParameter
+    - UnityEngine.Rendering.Universal.UniversalRendererData/ShaderResources
+    - UnityEngine.Rendering.Universal.XRSystemData/ShaderResources
+    Unity.TextMeshPro:
+    - TMPro.FaceInfo_Legacy
+    - TMPro.FontAssetCreationSettings
+    - TMPro.KerningTable
+    - TMPro.TMP_Character
+    - TMPro.TMP_FontFeatureTable
+    - TMPro.TMP_FontWeightPair
+    - TMPro.TMP_GlyphAdjustmentRecord
+    - TMPro.TMP_GlyphPairAdjustmentRecord
+    - TMPro.TMP_GlyphValueRecord
+    - TMPro.TMP_Sprite
+    - TMPro.TMP_SpriteCharacter
+    - TMPro.TMP_SpriteGlyph
+    - TMPro.TMP_Style
+    UnityEngine.CoreModule:
+    - UnityEngine.Events.ArgumentCache
+    - UnityEngine.Events.PersistentCallGroup
+    - UnityEngine.Events.PersistentListenerMode
+    - UnityEngine.RectOffset
+    UnityEngine.TextCoreFontEngineModule:
+    - UnityEngine.TextCore.FaceInfo
+    - UnityEngine.TextCore.Glyph
+    - UnityEngine.TextCore.GlyphMetrics
+    - UnityEngine.TextCore.GlyphRect
+    UnityEngine.UI:
+    - UnityEngine.EventSystems.EventTrigger/Entry
+    - UnityEngine.EventSystems.EventTrigger/TriggerEvent
+    - UnityEngine.UI.AnimationTriggers
+    - UnityEngine.UI.Button/ButtonClickedEvent
+    - UnityEngine.UI.ColorBlock
+    - UnityEngine.UI.FontData
+    - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+    - UnityEngine.UI.Navigation
+    - UnityEngine.UI.ScrollRect/ScrollRectEvent
+    - UnityEngine.UI.Scrollbar/ScrollEvent
+    - UnityEngine.UI.SpriteState
+    - UnityEngine.UI.Toggle/ToggleEvent
+  methodsToPreserve:
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerPanel
+    methodName: OnScrollbarClicked
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerPanel
+    methodName: OnScrollbarClicked
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerIntField
+    methodName: OnIncrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerIntField
+    methodName: OnDecrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerIntField
+    methodName: OnDecrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerIntField
+    methodName: OnIncrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerUIntField
+    methodName: OnDecrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerUIntField
+    methodName: OnIncrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerUIntField
+    methodName: OnIncrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerUIntField
+    methodName: OnDecrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerPanel
+    methodName: ResetDebugManager
+  sceneClasses:
+    Assets/Scenes/SampleScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 84
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 111
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1960}
+    - Class: 114
+      Script: {instanceID: 1962}
+    - Class: 114
+      Script: {instanceID: 1964}
+    - Class: 114
+      Script: {instanceID: 1966}
+    - Class: 114
+      Script: {instanceID: 1968}
+    - Class: 114
+      Script: {instanceID: 1980}
+    - Class: 114
+      Script: {instanceID: 2126}
+    - Class: 114
+      Script: {instanceID: 2690}
+    - Class: 114
+      Script: {instanceID: 3422}
+    - Class: 114
+      Script: {instanceID: 3546}
+    - Class: 114
+      Script: {instanceID: 3626}
+    - Class: 114
+      Script: {instanceID: 3772}
+    - Class: 114
+      Script: {instanceID: 3990}
+    - Class: 114
+      Script: {instanceID: 4330}
+    - Class: 114
+      Script: {instanceID: 4372}
+    - Class: 114
+      Script: {instanceID: 5048}
+    - Class: 114
+      Script: {instanceID: 5100}
+    - Class: 114
+      Script: {instanceID: 5186}
+    - Class: 114
+      Script: {instanceID: 5256}
+    - Class: 114
+      Script: {instanceID: 5422}
+    - Class: 114
+      Script: {instanceID: 5440}
+    - Class: 114
+      Script: {instanceID: 5922}
+    - Class: 114
+      Script: {instanceID: 6000}
+    - Class: 114
+      Script: {instanceID: 6092}
+    - Class: 114
+      Script: {instanceID: 6164}
+    - Class: 114
+      Script: {instanceID: 6272}
+    - Class: 114
+      Script: {instanceID: 6538}
+    - Class: 114
+      Script: {instanceID: 7008}
+    - Class: 114
+      Script: {instanceID: 7102}
+    - Class: 114
+      Script: {instanceID: 7424}
+    - Class: 114
+      Script: {instanceID: 7564}
+    - Class: 114
+      Script: {instanceID: 8014}
+    - Class: 114
+      Script: {instanceID: 8394}
+    - Class: 114
+      Script: {instanceID: 8462}
+    - Class: 114
+      Script: {instanceID: 8602}
+    - Class: 114
+      Script: {instanceID: 9342}
+    - Class: 114
+      Script: {instanceID: 9442}
+    - Class: 114
+      Script: {instanceID: 9736}
+    - Class: 114
+      Script: {instanceID: 9988}
+    - Class: 114
+      Script: {instanceID: 10096}
+    - Class: 114
+      Script: {instanceID: 10120}
+    - Class: 114
+      Script: {instanceID: 10178}
+    - Class: 114
+      Script: {instanceID: 10354}
+    - Class: 114
+      Script: {instanceID: 10432}
+    - Class: 114
+      Script: {instanceID: 10552}
+    - Class: 114
+      Script: {instanceID: 10978}
+    - Class: 114
+      Script: {instanceID: 11004}
+    - Class: 114
+      Script: {instanceID: 11100}
+    - Class: 114
+      Script: {instanceID: 11162}
+    - Class: 114
+      Script: {instanceID: 11350}
+    - Class: 114
+      Script: {instanceID: 11616}
+    - Class: 114
+      Script: {instanceID: 11694}
+    - Class: 114
+      Script: {instanceID: 11710}
+    - Class: 114
+      Script: {instanceID: 11926}
+    - Class: 114
+      Script: {instanceID: 12058}
+    - Class: 114
+      Script: {instanceID: 12166}
+    - Class: 114
+      Script: {instanceID: 12254}
+    - Class: 114
+      Script: {instanceID: 12388}
+    - Class: 114
+      Script: {instanceID: 12412}
+    - Class: 114
+      Script: {instanceID: 12832}
+    - Class: 114
+      Script: {instanceID: 13166}
+    - Class: 114
+      Script: {instanceID: 13622}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 134
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: bcaee4c2a83047257b5f47d6ed264b75
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: a6e561615949734e9f12f9b61661f43e
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: 699619b86d9359741a4f58540298c80b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: c1d728126ff1918728036c59106d32b2
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: d251bf88db6c95a6b1aa0b69298da9ef
+    assemblyName: UnityEngine.SpatialTracking.dll
+    namespaceName: UnityEngine.SpatialTracking
+    className: TrackedPoseDriver
+  - hash:
+      serializedVersion: 2
+      Hash: e09e8bebc0fcd32bb8af1287a6b44816
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: f69dfc6409fbbd89d3689368e99688a8
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerVector2
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UIElements
+    className: PanelRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 1e65f089c6709dba2d107a15013fba02
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Leap.Unity.Examples
+    className: ExplodingItemController
+  - hash:
+      serializedVersion: 2
+      Hash: 20ff3e2dfa4160a9735f2a201cb524d8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ChooseTrackedObjectMenu
+  - hash:
+      serializedVersion: 2
+      Hash: 8dcde32b826319a28195c404fc690cda
+    assemblyName: Unity.XR.Oculus.dll
+    namespaceName: Unity.XR.Oculus
+    className: OculusSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnScrollbarValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 0dbc3be398b4869a5c8d0d8481ee402c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: 6bc76e17f0d5e93f3eea7f5a2fe227f3
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: a6092983baa2afaaf64ca8dfc7244c6b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EnemyBehavior
+  - hash:
+      serializedVersion: 2
+      Hash: 1f2cec8b8db2240187e9e28372d46fa4
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.HID.Editor
+    className: HIDDescriptorWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 0e5b1c602c51274baa37a7ebb136c386
+    assemblyName: Ultraleap.Tracking.Core.dll
+    namespaceName: Leap.Unity
+    className: LeapXRServiceProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 8e13bb05c31d315b9db3d7ff2211c3a9
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: DepthOfField
+  - hash:
+      serializedVersion: 2
+      Hash: d11710356e40c01b13965a4f91b41934
+    assemblyName: Ultraleap.Tracking.HandRays.dll
+    namespaceName: Leap.Unity.Preview.HandRays
+    className: HandRayDotRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: 9f0d2156cb2876cc856eb040bfe23e76
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: CompositeShadowCaster2D
+  - hash:
+      serializedVersion: 2
+      Hash: cecda2c3b093bc772ff957b6da0415a7
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: WhiteBalance
+  - hash:
+      serializedVersion: 2
+      Hash: 1be5ee23282525b841976a22826bcd2b
+    assemblyName: Unity.XR.OpenXR.dll
+    namespaceName: UnityEngine.XR.OpenXR
+    className: OpenXRSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Ultraleap.Tracking.InteractionEngine.dll
+    namespaceName: Leap.Unity.Interaction
+    className: PhysicsCallbacks
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnDropMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 6f1a7bf478686f9b2a14f524c902853b
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: AdvancedDropdownWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 1430d152b69cad2ae39c24eb634b6bc6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ViewControl
+  - hash:
+      serializedVersion: 2
+      Hash: 238b2bc28e83af519b9a8750d150a179
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Experimental.Rendering
+    className: ProbeVolumePerSceneData
+  - hash:
+      serializedVersion: 2
+      Hash: 5e1eefcd5106de6c2e85908a3b2d3f04
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerToggle
+  - hash:
+      serializedVersion: 2
+      Hash: 645351730ebc1944234a90264bf0484b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Leap.Unity.Examples
+    className: TurntableVisuals
+  - hash:
+      serializedVersion: 2
+      Hash: 5003ff8994ec74fcc914ff70f93e71e8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FrustumDisplay
+  - hash:
+      serializedVersion: 2
+      Hash: a9127cb971eb20007942faf43754c1f7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ArUcoDroneLaser
+  - hash:
+      serializedVersion: 2
+      Hash: 9057f1da6e48e4f85c7129fdeb977e2e
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ColorLookup
+  - hash:
+      serializedVersion: 2
+      Hash: 31995eb8416877c9afd92b5d1b50df0d
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: XRSystemData
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnBecameVisibleMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 9969c18a4737aa4dab89456e8655c4a2
+    assemblyName: Ultraleap.Tracking.InteractionEngine.dll
+    namespaceName: Leap.Unity.Interaction
+    className: InteractionButton
+  - hash:
+      serializedVersion: 2
+      Hash: 4e8951dc9da01da3c0135c756d0b8d7f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Leap.Unity.Examples
+    className: RectToroid
+  - hash:
+      serializedVersion: 2
+      Hash: 8e7ceffa322a3320a1fc0847ccac8946
+    assemblyName: Ultraleap.Tracking.Controllers.dll
+    namespaceName: Leap.Unity.Controllers
+    className: HandControllerSwapper
+  - hash:
+      serializedVersion: 2
+      Hash: 24d3fc3d81db84ea34f990c188a34691
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CalibModeSwitcher
+  - hash:
+      serializedVersion: 2
+      Hash: bdb10349210c462b9c5bbb8b50b687ce
+    assemblyName: Ultraleap.Tracking.Core.dll
+    namespaceName: Leap.Unity
+    className: ExtendedFingerDetector
+  - hash:
+      serializedVersion: 2
+      Hash: c822eec45bd7c5f6d7c8a2d82a6feb07
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 97243b7dcd68fe646f20593b3a9334e8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ZEDOffsetController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TMP_TextSelector_A
+  - hash:
+      serializedVersion: 2
+      Hash: 865badd217302014bb89063601836039
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Experimental.Rendering
+    className: ProbeReferenceVolumeProfile
+  - hash:
+      serializedVersion: 2
+      Hash: a6b7412e4f2f013de41bae4481ec8b15
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AutoCalibrationManager
+  - hash:
+      serializedVersion: 2
+      Hash: 4796116bf2c3f9c85f0caaf4609c1e72
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CopyToSurface
+  - hash:
+      serializedVersion: 2
+      Hash: 1f0602e7bad1e0a9cba31ce292eee8bb
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerWidget
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: CoroutineRunner
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GUIMessage
+  - hash:
+      serializedVersion: 2
+      Hash: ea41fa959037983f32ebd7c70de46554
+    assemblyName: Unity.XR.OpenXR.dll
+    namespaceName: UnityEngine.XR.OpenXR.Features.Interactions
+    className: MicrosoftHandInteraction
+  - hash:
+      serializedVersion: 2
+      Hash: 8fbc134fd506d97c845cf2b715231396
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnButtonClickMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: ca4ee9b52539253aadc7f073319e30e4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: NavMeshSurface
+  - hash:
+      serializedVersion: 2
+      Hash: aafd2243ae11110c5c62c731aee5d8ed
+    assemblyName: Ultraleap.Tracking.OpenXR.dll
+    namespaceName: Ultraleap.Tracking.OpenXR
+    className: OpenXRLeapProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 6f88ed42b4bfa95b08fabeb504adec1d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ZEDControllerTracker_DemoInputs
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnDropdownValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 82827952c5cb10d652bddcbc54600238
+    assemblyName: Ultraleap.Tracking.Core.dll
+    namespaceName: Leap.Unity.Attachments
+    className: AttachmentPointBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 5d5b0c61f3ab6ff5f41b1bbe19764526
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.OnScreen
+    className: OnScreenButton
+  - hash:
+      serializedVersion: 2
+      Hash: 0784d4fd5b93bd75440d01eb2fac4233
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: VertexShakeA
+  - hash:
+      serializedVersion: 2
+      Hash: 69730d7d10395f3352d2e6945688bab0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Leap.InteractionEngine.Examples
+    className: TransformTranslationHandle
+  - hash:
+      serializedVersion: 2
+      Hash: 67ddbe2a903740341b0d57a5bed0a371
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ZEDSkeletonTrackingViewer
+  - hash:
+      serializedVersion: 2
+      Hash: 732a952474ff0e338ade34323e26e044
+    assemblyName: Ultraleap.Tracking.Core.dll
+    namespaceName: Leap.Unity
+    className: XRLeapProviderManager
+  - hash:
+      serializedVersion: 2
+      Hash: 69415240821be7986b27e72bf9609a30
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: cdb2f0334b4a78e913c4d20e6b60d22b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ZED2DObjectVisualizer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnInputFieldValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseDownMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: b0ebd7663760c5e64e155564be1de376
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TranslateArrow
+  - hash:
+      serializedVersion: 2
+      Hash: eaed50c9f3e1e24d3feb4c8b2f00278d
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerEnumField
+  - hash:
+      serializedVersion: 2
+      Hash: 60abbed72de724599ab6f5f55795d84a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AssertObjectExistenceOnEnable
+  - hash:
+      serializedVersion: 2
+      Hash: 25c0a6f0f19db4b7789f7a86bdcf4acc
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: UniversalRenderPipelineGlobalSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 937ebacd00072b9cffb2cf2e9db6748c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DrawOutputToPlane
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.XR.OpenXR.dll
+    namespaceName: UnityEngine.XR.OpenXR
+    className: OpenXRRestarter
+  - hash:
+      serializedVersion: 2
+      Hash: 4038065b29049f09119c54e24ac46157
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ZED3DObjectVisualizer
+  - hash:
+      serializedVersion: 2
+      Hash: 78adb4f9728b5783dd7ee99b9c477513
+    assemblyName: Ultraleap.Tracking.Hands.dll
+    namespaceName: Leap.Unity.HandsModule
+    className: HandBinder
+  - hash:
+      serializedVersion: 2
+      Hash: 2388eb9e99b86b3813e7b6dbfe4b3e0c
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
+    assemblyName: Unity.VisualScripting.Flow.dll
+    namespaceName: Unity.VisualScripting
+    className: ScriptMachine
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnSelectMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 2506f61e13211c0184be28b085569279
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OscillatePosition
+  - hash:
+      serializedVersion: 2
+      Hash: 40cfbb49ea9f9ab8b89fa7e41429ee2b
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: DecalRendererFeature
+  - hash:
+      serializedVersion: 2
+      Hash: 1f0602e7bad1e0a9cba31ce292eee8bb
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerVBox
+  - hash:
+      serializedVersion: 2
+      Hash: 7536c3aaa3b668b80f1580147a12d30d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TextMeshProFloatingText
+  - hash:
+      serializedVersion: 2
+      Hash: 98aa0a0c8ff2910eb12af89c7e0eb661
+    assemblyName: Unity.XR.Management.dll
+    namespaceName: UnityEngine.XR.Management
+    className: XRGeneralSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 27ec3360f0c0a6803ba71cc3106480b8
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshPro
+  - hash:
+      serializedVersion: 2
+      Hash: bd3cf68c8964d3c66d1c43f4f98508c9
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionExit2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 9212d552eb6571fcf3a9e5127400c2fb
+    assemblyName: Ultraleap.Tracking.PhysicsHands.dll
+    namespaceName: Leap.Unity.Interaction.PhysicsHands
+    className: PhysicsButtonElement
+  - hash:
+      serializedVersion: 2
+      Hash: 8ab9295d94483c961936d82d233d3df2
+    assemblyName: Unity.XR.Management.dll
+    namespaceName: UnityEngine.XR.Management
+    className: XRManagerSettings
+  - hash:
+      serializedVersion: 2
+      Hash: d8132a455fbf771c181dc45710f1a6ec
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Leap.InteractionEngine.Examples
+    className: TransformTool
+  - hash:
+      serializedVersion: 2
+      Hash: 58ae6b0d12347624c04c0f15d3200e93
+    assemblyName: Ultraleap.Tracking.Locomotion.dll
+    namespaceName: Leap.Unity.Preview.Locomotion
+    className: JumpGemTeleport
+  - hash:
+      serializedVersion: 2
+      Hash: 646acfdc609c8bbbe9c9f9cec7529f76
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Leap.Unity.Examples
+    className: ScaleOnEnable
+  - hash:
+      serializedVersion: 2
+      Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
+    assemblyName: Unity.VisualScripting.Flow.dll
+    namespaceName: Unity.VisualScripting
+    className: ScriptGraphAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 5f926aacff67de28789802fc3b84af7c
+    assemblyName: Ultraleap.Tracking.HandRays.dll
+    namespaceName: Leap.Unity.Preview.HandRays
+    className: StraightRayInteractor
+  - hash:
+      serializedVersion: 2
+      Hash: 67026e16a78293eea2cdd4ae22b4ec68
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ColorAdjustments
+  - hash:
+      serializedVersion: 2
+      Hash: e63944317d2f5958e31963668bb29158
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: VertexShakeB
+  - hash:
+      serializedVersion: 2
+      Hash: a84e52dda3f2948cc0437a2bf3934c8f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SunBursts
+  - hash:
+      serializedVersion: 2
+      Hash: a5781dc71a671b1ad2b38de19f24b71f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: c45d28c38bedd2dfd3b969dfff86601c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Leap.InteractionEngine.Examples
+    className: SwapGraspExample
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 8b1fe5dfdcf943fb3b72506b9f19335f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EnvMapAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 6f1a7bf478686f9b2a14f524c902853b
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputActionDebuggerWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 908b3077da284d11de0450423ca1808e
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: 53fdc43ddde18a81960b9684d2758001
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LookAtCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 09595e38e02a5464def0e96a6f196ea8
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: MotionBlur
+  - hash:
+      serializedVersion: 2
+      Hash: cd1e91f5afed259a1512bbf18dc12bd7
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: 
+    className: SceneRenderPipeline
+  - hash:
+      serializedVersion: 2
+      Hash: 87ad3705a58f19c47136728d4a6e9c47
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: 576a990480115b1afc981724902889e8
+    assemblyName: Ultraleap.Tracking.InteractionEngine.dll
+    namespaceName: Leap.Unity.Interaction.Examples
+    className: HideInteractionHandWhenControllerMoving
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnJointBreak2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: f263684da9451679e7c691b23812ea53
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BBox2DHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 3375c3d749f8f4cad889721b431bdc27
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: CameraController
+  - hash:
+      serializedVersion: 2
+      Hash: aa01f61ebce81034dfab0fa6d0e31a60
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: Bloom
+  - hash:
+      serializedVersion: 2
+      Hash: 426e5bd616852254b77531cd1a8e29b6
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.OnScreen
+    className: OnScreenStick
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCancelMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Leap.Unity.InteractionEngine.Examples
+    className: SimpleScaleUtil
+  - hash:
+      serializedVersion: 2
+      Hash: e80c1450883443c68d6c2dade213536f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TMPro_InstructionOverlay
+  - hash:
+      serializedVersion: 2
+      Hash: e244702e0dc05782229aa524e4d757f5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TMP_ExampleScript_01
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TextConsoleSimulator
+  - hash:
+      serializedVersion: 2
+      Hash: 26282caf114d432d53492a5fef42fc2b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RandomDirLightManager
+  - hash:
+      serializedVersion: 2
+      Hash: bfbab3c511a9ce6d8a4482b92f1779bb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CreateZEDModel
+  - hash:
+      serializedVersion: 2
+      Hash: 7d1a3e12579b7bd0f94909057ffba8d0
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering
+    className: CameraSwitcher
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerClickMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: e1944477d8f50021e8760157af7801c2
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: UniversalRenderPipelineEditorResources
+  - hash:
+      serializedVersion: 2
+      Hash: 95fffd331f43376347e711fdf90fdc72
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RandomWalk
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LoadingFade
+  - hash:
+      serializedVersion: 2
+      Hash: aaf48d083da423f532fba364afb3cc21
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BunnyPlacement
+  - hash:
+      serializedVersion: 2
+      Hash: d7c42e2bdbf383cbd5893438e7f927fc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OscillateRotation
+  - hash:
+      serializedVersion: 2
+      Hash: 55f4d361db50e36cd4809a42a5ac83d5
+    assemblyName: Ultraleap.Tracking.UIInput.dll
+    namespaceName: Leap.Unity.InputModule
+    className: UIInputCursor
+  - hash:
+      serializedVersion: 2
+      Hash: 3941e5e2e2a3a9798f4f296d0c79e909
+    assemblyName: Ultraleap.Tracking.InteractionEngine.dll
+    namespaceName: Leap.Unity.Interaction
+    className: ContactBone
+  - hash:
+      serializedVersion: 2
+      Hash: b6514f552bd2ee9e736a5678aa7f7de3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TMP_TextInfoDebugTool
+  - hash:
+      serializedVersion: 2
+      Hash: 6b6c13e7fbf8f837839ed1d63aac9b85
+    assemblyName: Ultraleap.Tracking.Locomotion.dll
+    namespaceName: Leap.Unity.Preview.Locomotion
+    className: IsFacingObject
+  - hash:
+      serializedVersion: 2
+      Hash: 1fcf8608f330bb384a6f12eccfe8b97e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Leap.Unity.Examples
+    className: ProjectionPostProcessProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 213765f64d735d2a727506460153a435
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ZEDMixedRealityPlugin
+  - hash:
+      serializedVersion: 2
+      Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: MacroScriptableObject
+  - hash:
+      serializedVersion: 2
+      Hash: 7ab0e790220bdca831fdd886b339039d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: ede3d522ce29a72deb2613abda57d11e
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem
+    className: RemoteInputPlayerConnection
+  - hash:
+      serializedVersion: 2
+      Hash: 7bac25265baff53dd6e2e57a104175c2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Leap.InteractionEngine.Examples
+    className: SimpleInteractionEmission
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnBeginDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 4d51d5ccf37d2089bdfe827617b784ff
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering
+    className: VolumeProfile
+  - hash:
+      serializedVersion: 2
+      Hash: a79c23915f58f15073703c4754cf8ff1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: sl
+    className: ZEDFusedPointCloudRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: 8c67e4d8da9a50c370e9fbe6a459890f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RotateOnAxes_MRCalib
+  - hash:
+      serializedVersion: 2
+      Hash: 52bcb9c2a78bdd8d98a59e915c346e75
+    assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
+    namespaceName: UnityEngine.XR.LegacyInputHelpers
+    className: TransitionArmModel
+  - hash:
+      serializedVersion: 2
+      Hash: 20c9a74d659b6895cfdb5f4624ba8daa
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: WFX_Demo_DeleteAfterDelay
+  - hash:
+      serializedVersion: 2
+      Hash: 7b11f1e745ab2b9e73380665a93a6672
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Leap.Unity.Examples
+    className: PullCord
+  - hash:
+      serializedVersion: 2
+      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: cbbe7feda91fe3d1954f2263343fcacc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlanetariumMover
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionEnter2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 5e1eefcd5106de6c2e85908a3b2d3f04
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerIndirectToggle
+  - hash:
+      serializedVersion: 2
+      Hash: 716ba50c78090f03b76f39b5587a8397
+    assemblyName: Ultraleap.Tracking.PhysicsHands.dll
+    namespaceName: Leap.Unity.Interaction.PhysicsHands
+    className: PhysicsHand
+  - hash:
+      serializedVersion: 2
+      Hash: 9363b2f4af570b43d91ae1638f492f6c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ToggleButton
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro
+    className: TMP_DigitValidator
+  - hash:
+      serializedVersion: 2
+      Hash: 4ac50f132ff766a577d10c40f11d2ead
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Experimental.Rendering
+    className: ProbeVolumeAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UIElements
+    className: PanelEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 8d35f16c5022311c6f4d9432be73bfcf
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerUIntField
+  - hash:
+      serializedVersion: 2
+      Hash: 8ea32dc13be788f8410a2fe981594f88
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ZEDMeshRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: f7d8c5e1d036889d8802fe3a5cce7c75
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerPanel
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 4d5bcf41394700c745e8024cc3934f4a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PrimaryHandSwitcher
+  - hash:
+      serializedVersion: 2
+      Hash: 91b88754bf9811ac48197b0030dd8c88
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ColorCurves
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnDeselectMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 5cca73e6211be2c13e7a0d2bce098b03
+    assemblyName: Ultraleap.Tracking.Core.dll
+    namespaceName: Leap.Unity
+    className: FingerDirectionDetector
+  - hash:
+      serializedVersion: 2
+      Hash: 274665fd9204c99f8f0aa9dd516bd637
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ObjIDText
+  - hash:
+      serializedVersion: 2
+      Hash: 37d9fb3c4f943c290ee633696ca1a8b0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SetControllerSkin
+  - hash:
+      serializedVersion: 2
+      Hash: 7df789d7b3f018bc4ddd0aecd269cbba
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Experimental.Rendering.Universal
+    className: PixelPerfectCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 164221013889a03b3422d30debb35460
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering
+    className: VolumeComponent
+  - hash:
+      serializedVersion: 2
+      Hash: 8bf957e8985c6a0f9e9a6edfe1f73731
+    assemblyName: Ultraleap.Tracking.Core.dll
+    namespaceName: Leap.Unity
+    className: LeapServiceProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 597b6a02b4ff987f1bd1cbd01305c3ae
+    assemblyName: Ultraleap.Tracking.HandRays.dll
+    namespaceName: Leap.Unity.Preview.HandRays
+    className: FarFieldLayerManager
+  - hash:
+      serializedVersion: 2
+      Hash: 192b833461a123b3ffea185017af1efc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: NavMeshAgentController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ParentToGrandparentOnStart
+  - hash:
+      serializedVersion: 2
+      Hash: ea41fa959037983f32ebd7c70de46554
+    assemblyName: Unity.XR.OpenXR.Features.ConformanceAutomation.dll
+    namespaceName: UnityEngine.XR.OpenXR.Features.ConformanceAutomation
+    className: ConformanceAutomationFeature
+  - hash:
+      serializedVersion: 2
+      Hash: 4d16cfbaa8e821a2b370e80844a0e9bc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TextMeshSpawner
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: AnimatorMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 8d35f16c5022311c6f4d9432be73bfcf
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerValue
+  - hash:
+      serializedVersion: 2
+      Hash: 0bdd9e6c8cc94fdcda82f6c99d20d204
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ChooseTrackedObjectButton
+  - hash:
+      serializedVersion: 2
+      Hash: 760787567e1b60d64a3e421ab83ee14a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 1011356bf17582265e05ff960fc700da
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DestroyAfterTime
+  - hash:
+      serializedVersion: 2
+      Hash: d89964d487a786eef91ff554f29d3774
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Leap.Unity.Examples
+    className: PullCordVisuals
+  - hash:
+      serializedVersion: 2
+      Hash: f694c30f0f85d34f87927654b66c4d79
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ForceTrackingSpaceType
+  - hash:
+      serializedVersion: 2
+      Hash: 8d35f16c5022311c6f4d9432be73bfcf
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerIntField
+  - hash:
+      serializedVersion: 2
+      Hash: 5b338847bea3ac4889842711eb2f37c9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ClickButton
+  - hash:
+      serializedVersion: 2
+      Hash: 5ea7bef130120baa39b7c3d7b043fac8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BBox3DHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 91bbe67c3e33d61ae760936f043db32a
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: LiftGammaGain
+  - hash:
+      serializedVersion: 2
+      Hash: bb6b9a25e695d7981ce2d853a697a828
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerVector4
+  - hash:
+      serializedVersion: 2
+      Hash: 792f4985d47545fed2a4b331811c74b8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Leap.Unity.Examples
+    className: LineBetweenTransforms
+  - hash:
+      serializedVersion: 2
+      Hash: 3d53643ca5ca9bbbaf41335f27404dd4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Leap.Unity.Examples
+    className: PinchStrokeProcessor
+  - hash:
+      serializedVersion: 2
+      Hash: b7d58df3c6d92c60e3611c0a808aa0dc
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerBitField
+  - hash:
+      serializedVersion: 2
+      Hash: 7f14e2629d2c025750fb4ff1ed0b918a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RotateRing
+  - hash:
+      serializedVersion: 2
+      Hash: 5dea360fb0b147724ac344e6f399c2f3
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: 3c175ede1764883f25e23e5b573ad74f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ZEDLight
+  - hash:
+      serializedVersion: 2
+      Hash: 8e6ceabfd38a184413d69b7db56c89cc
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools
+    className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.EnhancedTouch
+    className: TouchSimulation
+  - hash:
+      serializedVersion: 2
+      Hash: 6113f5c6194c17c07214cc2fda347bb9
+    assemblyName: Ultraleap.Tracking.InteractionEngine.dll
+    namespaceName: Leap.Unity.Interaction
+    className: InteractionSlider
+  - hash:
+      serializedVersion: 2
+      Hash: d3f29ba27f28c1f558880c4df5545ed3
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: 
+    className: DownloadableSample
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: 36025d42bf23fda83a55bf1429201821
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerRow
+  - hash:
+      serializedVersion: 2
+      Hash: 76aef43e801605d1829c8805eeee135c
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem
+    className: InputActionReference
+  - hash:
+      serializedVersion: 2
+      Hash: 23b60c4b16cdff673a68d1af70fe729c
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering
+    className: LensFlareDataSRP
+  - hash:
+      serializedVersion: 2
+      Hash: df8596ec77b826b71e0820df22773f90
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerDamageReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: 435b91cde8a03bad1d5c99895fa46992
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Experimental.Rendering
+    className: ProbeVolume
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Ultraleap.Tracking.InteractionEngine.dll
+    namespaceName: Leap.Unity.Examples
+    className: IgnoreCollisionsInChildren
+  - hash:
+      serializedVersion: 2
+      Hash: e63944317d2f5958e31963668bb29158
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: VertexJitter
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: PositionAsUV1
+  - hash:
+      serializedVersion: 2
+      Hash: d37d03007f1e8517968840eac26a190e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ZEDControllerTracker
+  - hash:
+      serializedVersion: 2
+      Hash: 4e516d6d64d44446989426b8f725c6f8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro
+    className: TMP_TextEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 0713e001d0d6f9df5412ad93530a175a
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem
+    className: InputSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnSubmitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 658c6ee87e11b7060b62378342275173
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ZEDPointCloudManager
+  - hash:
+      serializedVersion: 2
+      Hash: a81d4c2c1cf3ad164d277d927a193679
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 7c97cc9e6d2451a8d0b49032f17c81e1
+    assemblyName: Ultraleap.Tracking.InteractionEngine.dll
+    namespaceName: Leap.Unity.Interaction
+    className: SimpleFacingCameraCallbacks
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 360ee8d2687edc53394bb81364aa7441
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EnableIfOpenCVNotDetected
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BallTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: ea41fa959037983f32ebd7c70de46554
+    assemblyName: Unity.XR.OpenXR.dll
+    namespaceName: UnityEngine.XR.OpenXR.Features.Interactions
+    className: OculusTouchControllerProfile
+  - hash:
+      serializedVersion: 2
+      Hash: e5cb957fd4a55f0d604c4eb3ce57d181
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlaceOnScreen
+  - hash:
+      serializedVersion: 2
+      Hash: 972fd133f590e833913fb67e9e60206b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ArUcoDrone
+  - hash:
+      serializedVersion: 2
+      Hash: 775cb71fe628cc1abe9811337bf8b34e
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: UniversalAdditionalLightData
+  - hash:
+      serializedVersion: 2
+      Hash: 251b7e456dfa0946927ebac4efecd211
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine
+    className: LightAnchor
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 49c1d5290bd8a2c1cb85572e3d094cf7
+    assemblyName: Ultraleap.Tracking.Hands.dll
+    namespaceName: Leap.Unity.HandsModule
+    className: HandModelManager
+  - hash:
+      serializedVersion: 2
+      Hash: 9d404d7996e7b344343bb18e9268d8f6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Leap.Unity.Examples
+    className: Turntable
+  - hash:
+      serializedVersion: 2
+      Hash: 924151518b0617aca3f4a3b2e422689f
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: DecalProjector
+  - hash:
+      serializedVersion: 2
+      Hash: da2fbf94e518b7ce270950ee33c88388
+    assemblyName: Ultraleap.Tracking.Core.dll
+    namespaceName: Leap.Unity
+    className: DetectorLogicGate
+  - hash:
+      serializedVersion: 2
+      Hash: ed6fc3768c1de993f30af34b282fbd69
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LaserShot_Drone
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TempAudioObject
+  - hash:
+      serializedVersion: 2
+      Hash: 491b32e7b7beee611b227820ad5312d5
+    assemblyName: Ultraleap.Tracking.UIInput.dll
+    namespaceName: Leap.Unity.InputModule
+    className: UIInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnParticleCollisionMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: c1f5356fcd27668ddc25078e27f9828d
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.UI
+    className: MultiplayerEventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 72763ba72b43403ee09a4c54b07cb346
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.XR
+    className: TrackedPoseDriver
+  - hash:
+      serializedVersion: 2
+      Hash: 3274e0b61d4f0667eefe285e5f9d77c5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SpotlightFollow
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseOverMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 0a3fa1a367fddc65eb32515029503334
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerButton
+  - hash:
+      serializedVersion: 2
+      Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: Variables
+  - hash:
+      serializedVersion: 2
+      Hash: fe1fdeffc2067077b2f1a90b210c2532
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DropdownSample
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: CinemachineUniversalPixelPerfect
+  - hash:
+      serializedVersion: 2
+      Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
+    assemblyName: Unity.VisualScripting.State.dll
+    namespaceName: Unity.VisualScripting
+    className: StateMachine
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro
+    className: TMP_PhoneNumberValidator
+  - hash:
+      serializedVersion: 2
+      Hash: e61791df3c9aba9d8e3cad0fb254df0f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Leap.InteractionEngine.Examples
+    className: WorkstationBehaviourExample
+  - hash:
+      serializedVersion: 2
+      Hash: ea41fa959037983f32ebd7c70de46554
+    assemblyName: Unity.XR.OpenXR.dll
+    namespaceName: UnityEngine.XR.OpenXR.Features.Interactions
+    className: EyeGazeInteraction
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: VertexColorCycler
+  - hash:
+      serializedVersion: 2
+      Hash: 47211d65f16ea9bfb4d4da193f639f23
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: UniversalRendererData
+  - hash:
+      serializedVersion: 2
+      Hash: e7a73f5f78ba6445195ec23b74a1ce2d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TeleType
+  - hash:
+      serializedVersion: 2
+      Hash: ad6d2c5be0082b60640446f3bbe0d1fd
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering
+    className: Volume
+  - hash:
+      serializedVersion: 2
+      Hash: 58eb4088510cb672ff3779f6df00eeef
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: ULeap.Unity.InteractionEngine.Examples
+    className: SimpleRendererUtil
+  - hash:
+      serializedVersion: 2
+      Hash: a4b4545f9c274f4d71a09597a21d196e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Leap.Unity.Examples
+    className: PaintCursor
+  - hash:
+      serializedVersion: 2
+      Hash: 88b53ab0e08dd982d35be84f7d32fd24
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PitchOscillator
+  - hash:
+      serializedVersion: 2
+      Hash: 8220b46879dc5e37db1b940c938f5744
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Ultraleap.Tracking.InteractionEngine.dll
+    namespaceName: 
+    className: IgnoreColliderForInteraction
+  - hash:
+      serializedVersion: 2
+      Hash: 766d1e816bcaf02d44dc1df06af2bf9a
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem
+    className: PlayerInputManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnToggleValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 47930f3b40e24ef5b3b5e3d9ada7097a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: Benchmark01
+  - hash:
+      serializedVersion: 2
+      Hash: ec4c1d7d9fe98434976788ebc4ee261e
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: aad2a13bb76f318531d49bb09ff5c895
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ZEDPlaneDetectionManager
+  - hash:
+      serializedVersion: 2
+      Hash: c24a778d9aa393e11e54bff320ca63de
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem
+    className: PlayerInput
+  - hash:
+      serializedVersion: 2
+      Hash: 04e4a8b0447477cc4e933d9e5311188f
+    assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
+    namespaceName: UnityEngine.XR.LegacyInputHelpers
+    className: ArmModel
+  - hash:
+      serializedVersion: 2
+      Hash: ca0b8ad3987cd33b3209a508b6e1562e
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering
+    className: FreeCamera
+  - hash:
+      serializedVersion: 2
+      Hash: fd1db5a7ca9002d0dd6917dd798b9f3f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Leap.Unity.Examples
+    className: EditorURL
+  - hash:
+      serializedVersion: 2
+      Hash: 2967452f63bad81f0097ff1f367070ec
+    assemblyName: Ultraleap.Tracking.Core.dll
+    namespaceName: Leap.Unity
+    className: LeapImageRetriever
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 65570f2514afc02344930e7c306bd0b6
+    assemblyName: Ultraleap.Tracking.Core.dll
+    namespaceName: Leap.Unity
+    className: HandEnableDisable
+  - hash:
+      serializedVersion: 2
+      Hash: f1629c6f2e2b541a09108a5f7d0f3578
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ScreenSpaceAmbientOcclusion
+  - hash:
+      serializedVersion: 2
+      Hash: 61d6b1a881c442337e7466f4fcfc8824
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Leap.Unity.HandsModule.Examples
+    className: CycleHandPairs
+  - hash:
+      serializedVersion: 2
+      Hash: 8a874a8207a7664bdf44e61f28717254
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: SkewTextExample
+  - hash:
+      serializedVersion: 2
+      Hash: 29cb5ccadda8ab62d8dba6d24d61faa4
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.UI
+    className: VirtualMouseInput
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionStayMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: SimpleScript
+  - hash:
+      serializedVersion: 2
+      Hash: a95799c9bcbf0c960856f20f0139fda4
+    assemblyName: Ultraleap.Tracking.InteractionEngine.dll
+    namespaceName: Leap.Unity.Interaction
+    className: ContactBoneParent
+  - hash:
+      serializedVersion: 2
+      Hash: 7ff44ebf0210c4763ffa2f907648beb6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Say_Hey
+  - hash:
+      serializedVersion: 2
+      Hash: fe4d07e8967dda7d1cd4041f32ca1dbb
+    assemblyName: Ultraleap.Tracking.InteractionEngine.dll
+    namespaceName: Leap.Unity.Interaction
+    className: Anchor
+  - hash:
+      serializedVersion: 2
+      Hash: 8c67e4d8da9a50c370e9fbe6a459890f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RotateOnAxes
+  - hash:
+      serializedVersion: 2
+      Hash: 6da05449502c54a7bf3cc65b493806ee
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Experimental.Rendering.Universal
+    className: RenderObjects
+  - hash:
+      serializedVersion: 2
+      Hash: 3b8fffd8c905d1a5a27efb1e4232f447
+    assemblyName: Ultraleap.Tracking.PhysicsHands.dll
+    namespaceName: Leap.Unity.Interaction.PhysicsHands
+    className: PhysicsIgnoreHelpers
+  - hash:
+      serializedVersion: 2
+      Hash: f377af1ab8f6e80ca97d7871feda549b
+    assemblyName: Ultraleap.Tracking.Core.dll
+    namespaceName: Leap.Unity
+    className: Comment
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTriggerEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 800c50acba124432abb4cf0d47202e06
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: 271f41f6ffeec2610860653898f53f40
+    assemblyName: Ultraleap.Tracking.Locomotion.dll
+    namespaceName: Leap.Unity.Preview.Locomotion
+    className: LightweightPinchDetector
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerUpMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 91d258529db2b5060a913f2afcea1a21
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner
+    className: PlaymodeTestsController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnJointBreakMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 751cc8caab9c61eef27b6a7c6dfef832
+    assemblyName: Ultraleap.Tracking.Aggregation.dll
+    namespaceName: Leap.Unity
+    className: AggregationProviderConfidenceInterpolation
+  - hash:
+      serializedVersion: 2
+      Hash: 0a3fa1a367fddc65eb32515029503334
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerMessageBox
+  - hash:
+      serializedVersion: 2
+      Hash: 70d24cf0b6339e10c4b81b1713501abf
+    assemblyName: Ultraleap.Tracking.Core.dll
+    namespaceName: Leap.Unity
+    className: EnableDepthBuffer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EnableWhenReady
+  - hash:
+      serializedVersion: 2
+      Hash: ad00aef5869cbb8fc93e54b46c6a0a27
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: SplitToning
+  - hash:
+      serializedVersion: 2
+      Hash: 51b05e403ce1da1805851f42af02f4bb
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 58cb4e2e0cfe376003f3758d58f93e4a
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering
+    className: LensFlareComponentSRP
+  - hash:
+      serializedVersion: 2
+      Hash: 616e797de720a312460888547901c32b
+    assemblyName: Ultraleap.Tracking.Core.dll
+    namespaceName: Leap.Unity
+    className: ProximityDetector
+  - hash:
+      serializedVersion: 2
+      Hash: 121aa64f05e2d299aeee29154c37998a
+    assemblyName: Ultraleap.Tracking.ImageDistort.dll
+    namespaceName: 
+    className: LeapDistortImage
+  - hash:
+      serializedVersion: 2
+      Hash: eed7a53daffed1e86a518051b94b8d48
+    assemblyName: Ultraleap.Tracking.InteractionEngine.dll
+    namespaceName: Leap.Unity.Interaction
+    className: AnchorGroup
+  - hash:
+      serializedVersion: 2
+      Hash: dc38c27f90ed9f5c03f2d6338eb092f5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CapsuleFollower
+  - hash:
+      serializedVersion: 2
+      Hash: 27e5341178f188b89bdc6495710b590c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: Benchmark01_UGUI
+  - hash:
+      serializedVersion: 2
+      Hash: d4b12e4ee9541266ac2681aeef7cb8c2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SunCorona
+  - hash:
+      serializedVersion: 2
+      Hash: cc4274b586df3c02688bac01b88bd16c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: fe64a45214940b510a0ec79c96d43498
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: f336e086360abe49a3323e5f1583c35a
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 420efa48a0209b1ff9227f8df82901bd
+    assemblyName: Ultraleap.Tracking.InteractionEngine.dll
+    namespaceName: Leap.Unity.Interaction
+    className: InteractionToggle
+  - hash:
+      serializedVersion: 2
+      Hash: 303f7f6e271a00174fd481fc71797459
+    assemblyName: Ultraleap.Tracking.HandRays.dll
+    namespaceName: Leap.Unity.Preview.HandRays
+    className: WristShoulderHandRay
+  - hash:
+      serializedVersion: 2
+      Hash: 536e213326c281e546e33e6ac8e2b37a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Leap.InteractionEngine.Examples
+    className: SimpleAnchorFeedback
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestRunner.Utils
+    className: TestRunCallbackListener
+  - hash:
+      serializedVersion: 2
+      Hash: 8c2f993579fd47acbd50b7a0885b27f7
+    assemblyName: Ultraleap.Tracking.InteractionEngine.dll
+    namespaceName: Leap.Unity.Interaction
+    className: InteractionManager
+  - hash:
+      serializedVersion: 2
+      Hash: f40fedccd4adbc76605bea6d67537e4b
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: 91180465450c66520b8c2e3ff128f40c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Leap.InteractionEngine.Examples
+    className: TransformRotationHandle
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnInputFieldEndEditMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 3b92e51c8e283ffde2e82c289ded46f2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ZEDXRGrabber
+  - hash:
+      serializedVersion: 2
+      Hash: 822b017f69be67cea86453aabd841187
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ShadowCaster2D
+  - hash:
+      serializedVersion: 2
+      Hash: e46dd664cc1c5db49afd0bbe9c6e12d9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Leap.Unity.Examples
+    className: PullCordHandle
+  - hash:
+      serializedVersion: 2
+      Hash: a795feffe5335a6ceb45839523c4d232
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EnemyManager
+  - hash:
+      serializedVersion: 2
+      Hash: 0fd6822f6177297bd0eb4d83cc7a9030
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Ultraleap.Tracking.Core.dll
+    namespaceName: Leap.Unity.RuntimeGizmos
+    className: RuntimeGizmoToggle
+  - hash:
+      serializedVersion: 2
+      Hash: fe2d355deb0ca31d59a0a7cf4d141fc3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: Benchmark04
+  - hash:
+      serializedVersion: 2
+      Hash: bedfb308e1eabbf9055083d4576e740f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Leap.Examples
+    className: InertiaPostProcessProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 185b457f2d52afc3ef98d0c37d841af5
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: UniversalAdditionalCameraData
+  - hash:
+      serializedVersion: 2
+      Hash: 53fdc43ddde18a81960b9684d2758001
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DisableUntilZEDReady
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnScrollMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: f250ee66a4a8cb833d0f67aa7f23f587
+    assemblyName: Ultraleap.Tracking.Core.dll
+    namespaceName: Leap.Unity
+    className: DebugHand
+  - hash:
+      serializedVersion: 2
+      Hash: f8599eb8ff5cb2ef033000e93a446c38
+    assemblyName: Ultraleap.Tracking.Locomotion.dll
+    namespaceName: Leap.Unity.Preview.Locomotion
+    className: JumpGem
+  - hash:
+      serializedVersion: 2
+      Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputActionImporterEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: VariablesAsset
+  - hash:
+      serializedVersion: 2
+      Hash: aadb33b0748ee25c95d6cf646ae5826b
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ScreenSpaceShadows
+  - hash:
+      serializedVersion: 2
+      Hash: 1a90f128f36372f3b69cc28dbdc6cc34
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Leap.Unity.InteractionEngine.Examples
+    className: SimpleInteractionGlow
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayerQuitHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 2c0a467ee7950c941c2dd8ef6b974a7e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ChatController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: 9320dd9884fcee6ce54ec6f9fa0d78f3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Leap.Unity.Examples
+    className: ThickRibbonRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnControllerColliderHitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 364cbc5b7b6a68804300bc1da4cb1d4f
+    assemblyName: Ultraleap.Tracking.Core.dll
+    namespaceName: Leap.Unity.Attachments
+    className: AttachmentHands
+  - hash:
+      serializedVersion: 2
+      Hash: 463014e4f89fe3759c5793d2d6e717e8
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: UniversalRenderPipelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: a723a948335d52814d43ec01229ca0b3
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ForwardRendererData
+  - hash:
+      serializedVersion: 2
+      Hash: 5e1eefcd5106de6c2e85908a3b2d3f04
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerToggleHistory
+  - hash:
+      serializedVersion: 2
+      Hash: b0f2532aae4a1460e91340337fa08e0b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RotateControl
+  - hash:
+      serializedVersion: 2
+      Hash: e860a95284af40074bb7dc5ed54952f8
+    assemblyName: Unity.XR.OpenXR.Features.RuntimeDebugger.dll
+    namespaceName: UnityEngine.XR.OpenXR.Features.RuntimeDebugger
+    className: RuntimeDebuggerOpenXRFeature
+  - hash:
+      serializedVersion: 2
+      Hash: a47779242dac63d133309f6cd25db732
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AutoCalibBall
+  - hash:
+      serializedVersion: 2
+      Hash: d79be48f820686024dd0d9e080d7733b
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem
+    className: InputActionAsset
+  - hash:
+      serializedVersion: 2
+      Hash: dc5a2feef6d9d68a0d4d84151eabdd10
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BunnySpawner
+  - hash:
+      serializedVersion: 2
+      Hash: bd3f0ca738703903e759f77536ed74fd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TMP_UiFrameRateCounter
+  - hash:
+      serializedVersion: 2
+      Hash: aba7b2852ef61d175dd9602e7723d5e5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: db3a612b047fe3e3baa63dfeed3e8e91
+    assemblyName: Ultraleap.Tracking.Core.dll
+    namespaceName: Leap.Unity
+    className: PalmDirectionDetector
+  - hash:
+      serializedVersion: 2
+      Hash: f334201bf4b6385c654256ccb69bd6ec
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputDebuggerWindow
+  - hash:
+      serializedVersion: 2
+      Hash: da784a91c57b0602eb3eec6812b37bf9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LightShow
+  - hash:
+      serializedVersion: 2
+      Hash: 9aaf3b74885f48f2e0acb6f867858dad
+    assemblyName: Ultraleap.Tracking.Core.dll
+    namespaceName: Leap.Unity.Attachments
+    className: AttachmentHand
+  - hash:
+      serializedVersion: 2
+      Hash: 9ac327467393cb6c8045a2fd90ff67e2
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerPersistentCanvas
+  - hash:
+      serializedVersion: 2
+      Hash: c4b9d3c5d3592ce2a1451f30b017d56d
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputStateWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 50d893c48b1c02a4b8ede5fe28ff9e85
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.UI
+    className: TrackedDeviceRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 6089a58508df9b0f2e3b2f7cc38886b7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LaserGun
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionStay2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 3165968ba45c74472d279ba04455fccb
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: 20301aa4e74ec9683b7164d5bb4d0ef6
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ShadowsMidtonesHighlights
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: VariablesSaver
+  - hash:
+      serializedVersion: 2
+      Hash: 4590e7b14856969d0fae1270b72c4ef8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GreenScreenManager
+  - hash:
+      serializedVersion: 2
+      Hash: a925c426d4f27946916d21ba1d816d44
+    assemblyName: Ultraleap.Tracking.PhysicsHands.dll
+    namespaceName: Leap.Unity.Interaction.PhysicsHands
+    className: PhysicsButton
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 3a37f1b01cf2427201a9d8d9a29c19bd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlanetMover
+  - hash:
+      serializedVersion: 2
+      Hash: f9c1a9f8da03906aa0af1e8c743c7a80
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ZEDMirror
+  - hash:
+      serializedVersion: 2
+      Hash: 0fb27be807aa299702f28ad0bcad1f46
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 3adbdcb44d5a51b0cde506b3e36ea615
+    assemblyName: Ultraleap.Tracking.Core.dll
+    namespaceName: Leap.Unity
+    className: PinchDetector
+  - hash:
+      serializedVersion: 2
+      Hash: ef5c43f921427d03730f6ea4c848f07d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: 9f2449e6da3c00ddf1b2fd2adf303371
+    assemblyName: Ultraleap.Tracking.OpenXR.dll
+    namespaceName: Ultraleap.Tracking.OpenXR
+    className: HandTrackingFeature
+  - hash:
+      serializedVersion: 2
+      Hash: f8d8a097859f8f7e417dd5c81fef746f
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ChromaticAberration
+  - hash:
+      serializedVersion: 2
+      Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: DictionaryAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 7bc1b7964c59f6a9f8342fdb4aaf547f
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: LensDistortion
+  - hash:
+      serializedVersion: 2
+      Hash: 852ac4e9ceea699f7c1d76939cdc98da
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: Renderer2DData
+  - hash:
+      serializedVersion: 2
+      Hash: 6980e81ddc615a861309d2d659cc3760
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: eaed50c9f3e1e24d3feb4c8b2f00278d
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerEnumHistory
+  - hash:
+      serializedVersion: 2
+      Hash: ce5388f000970f78b13eabb923902535
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ZEDSVOManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71b54c21e031fe3468bdc9a3f134f437
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ToggleGroup3D
+  - hash:
+      serializedVersion: 2
+      Hash: 75de60bccbd35c2e82026d4a60733734
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 22ad7f8c61077740d8798af20bb4617a
+    assemblyName: Ultraleap.Tracking.Hands.dll
+    namespaceName: Leap.Unity.HandsModule
+    className: DistortTrackingDataToVisuals
+  - hash:
+      serializedVersion: 2
+      Hash: 739bf1716f5febbd3901b28879eb76a1
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputDeviceDebuggerWindow
+  - hash:
+      serializedVersion: 2
+      Hash: c5fd7bfc1806f78178f8b5f91e072387
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem
+    className: InputSystemObject
+  - hash:
+      serializedVersion: 2
+      Hash: cf2f04f7631a1b95a6b4e8cd0ed077fb
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: Vignette
+  - hash:
+      serializedVersion: 2
+      Hash: 11319334e5365797f8056694f9b5dae4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: ObjectSpin
+  - hash:
+      serializedVersion: 2
+      Hash: ea41fa959037983f32ebd7c70de46554
+    assemblyName: Unity.XR.OpenXR.dll
+    namespaceName: UnityEngine.XR.OpenXR.Features.Interactions
+    className: MicrosoftMotionControllerProfile
+  - hash:
+      serializedVersion: 2
+      Hash: ea41fa959037983f32ebd7c70de46554
+    assemblyName: Unity.XR.OpenXR.dll
+    namespaceName: UnityEngine.XR.OpenXR.Features.Interactions
+    className: KHRSimpleControllerProfile
+  - hash:
+      serializedVersion: 2
+      Hash: e453970a63590caf60d2f60ec737375a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Leap.Unity.InteractionEngine.Examples
+    className: SimpleMatchAnchorScaleAndState
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 34e75cc38353fe5486cc9c93a0d9b73e
+    assemblyName: Ultraleap.Tracking.Locomotion.dll
+    namespaceName: Leap.Unity.Preview.Locomotion
+    className: TeleportAnchor
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: SceneVariables
+  - hash:
+      serializedVersion: 2
+      Hash: dd7520b7d4e690e8c593273e7b9fbe80
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TMP_TextEventCheck
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnEndDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 631cc1cb6a4edc447b553d8e2afb416a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SpawnObjectAtPosition
+  - hash:
+      serializedVersion: 2
+      Hash: 6252e97119b7078bbfa624b5052e6875
+    assemblyName: Ultraleap.Tracking.InteractionEngine.dll
+    namespaceName: Leap.Unity.Interaction
+    className: InteractionBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 24c74cc0d527a06113f2b967042769f0
+    assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
+    namespaceName: UnityEditor.XR.LegacyInputHelpers
+    className: CameraOffset
+  - hash:
+      serializedVersion: 2
+      Hash: 91180465450c66520b8c2e3ff128f40c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Leap.InteractionEngine.Examples
+    className: TransformHandle
+  - hash:
+      serializedVersion: 2
+      Hash: 5ab533713adae59372fb3e10a585c186
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.UI
+    className: BaseInputOverride
+  - hash:
+      serializedVersion: 2
+      Hash: 77aaaaa51f7a8d8ff333a879741e47d2
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 544c05a8d1f953c785d5a3ce4f930789
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ZEDManager
+  - hash:
+      serializedVersion: 2
+      Hash: 291d108d98bbdd76aaecb454dafa3edf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BallLauncher
+  - hash:
+      serializedVersion: 2
+      Hash: 2510310774ce91cbdf718d16be1340d7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AsteroidsManager
+  - hash:
+      serializedVersion: 2
+      Hash: 62fef86270a167c41a606cfca1ecc156
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: ShaderPropAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 55a9c0e4ce8d04e0c3369f1f4c85e544
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: Tonemapping
+  - hash:
+      serializedVersion: 2
+      Hash: 4f7f1ef862b05872ef4fc50c3149ba78
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RandomDirectionMover
+  - hash:
+      serializedVersion: 2
+      Hash: c0855daaf8fa87b86b7b4233a6ad8c84
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: Light2D
+  - hash:
+      serializedVersion: 2
+      Hash: 30c2ec2ac343062c812bc619f3a92799
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Drone
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: GlobalMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 21a9c6dbf300fc1f6dc15ca7e2c39a37
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: 2498817ae9d4e107eafe03adb685eaf4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MessageDisplay
+  - hash:
+      serializedVersion: 2
+      Hash: 7dbf450932234158be58ca2027563dcb
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerVector3
+  - hash:
+      serializedVersion: 2
+      Hash: 1f9eff0969d6d529e3d7ad95fc188102
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TranslateControl
+  - hash:
+      serializedVersion: 2
+      Hash: 0e302b8f85f2b383da4b4669eff4e07a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ZEDProjectile
+  - hash:
+      serializedVersion: 2
+      Hash: e6f0efd0e20669d577e9d21526b3d3f9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: WarpTextExample
+  - hash:
+      serializedVersion: 2
+      Hash: c0f6a35f5806f4fa22d7aa59ebd7e3bd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DroneSpawner
+  - hash:
+      serializedVersion: 2
+      Hash: e78765d93b37fe61ed100bbbc2be3ac6
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 14fbe1b030b106b526b39711c4e1f4bc
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ChannelMixer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnBecameInvisibleMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 8d35f16c5022311c6f4d9432be73bfcf
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerFloatField
+  - hash:
+      serializedVersion: 2
+      Hash: cbb37bd865e339b32d056dd717545aa1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CameraAnchor
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ZEDPlaneGameObject
+  - hash:
+      serializedVersion: 2
+      Hash: 3fe10ff33b739ba70c2e20dc6fe11478
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SkeletonHandler
+  - hash:
+      serializedVersion: 2
+      Hash: ddd595820959ac95bbdf4e578684c507
+    assemblyName: Ultraleap.Tracking.UIInput.dll
+    namespaceName: Leap.Unity.InputModule
+    className: SoundOverrides
+  - hash:
+      serializedVersion: 2
+      Hash: afa2bb8b3126b42b629ed7603fdd4f1f
+    assemblyName: Ultraleap.Tracking.PhysicsHands.dll
+    namespaceName: Leap.Unity.Interaction.PhysicsHands
+    className: PhysicsProvider
+  - hash:
+      serializedVersion: 2
+      Hash: d85b490177c3124d2335460060a2b807
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputActionEditorWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
+    assemblyName: Unity.VisualScripting.State.dll
+    namespaceName: Unity.VisualScripting
+    className: StateGraphAsset
+  - hash:
+      serializedVersion: 2
+      Hash: fc169718e5fd24cea7425f24908c0418
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: PlayerInputManagerEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 6b3057497eb6f0e52612476af702bf8c
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: UIFoldout
+  - hash:
+      serializedVersion: 2
+      Hash: 4f60ff347d4efee4ef8cc7f627735018
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: Benchmark02
+  - hash:
+      serializedVersion: 2
+      Hash: 54d5c8e2036d13d9b78e624ad58d779c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: StrobeLight
+  - hash:
+      serializedVersion: 2
+      Hash: 48ddbc587b5530a4643e6ec7a57c023f
+    assemblyName: Ultraleap.Tracking.UIInput.dll
+    namespaceName: Leap.Unity.InputModule
+    className: CompressibleUI
+  - hash:
+      serializedVersion: 2
+      Hash: 8a32a1f417e9d1a3d05e74bed9a536fd
+    assemblyName: Ultraleap.Tracking.Aggregation.dll
+    namespaceName: 
+    className: JointOcclusion
+  - hash:
+      serializedVersion: 2
+      Hash: a1aa98c78061c6f03a8c124cda576e67
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: cf9f5cf2c3145a37ac07f00e50e460f9
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: e5834b9750029c5a9ec7b35a36a7a990
+    assemblyName: Ultraleap.Tracking.HandRays.dll
+    namespaceName: Leap.Unity.Preview.HandRays
+    className: ParabolicRayInteractor
+  - hash:
+      serializedVersion: 2
+      Hash: 58e68364412c67eae2bdb4954be2dcc2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Readme
+  - hash:
+      serializedVersion: 2
+      Hash: 1f0602e7bad1e0a9cba31ce292eee8bb
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerHBox
+  - hash:
+      serializedVersion: 2
+      Hash: ea41fa959037983f32ebd7c70de46554
+    assemblyName: Unity.XR.OpenXR.dll
+    namespaceName: UnityEngine.XR.OpenXR.Features.Interactions
+    className: HTCViveControllerProfile
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.XR.OpenXR.dll
+    namespaceName: UnityEngine.XR.OpenXR
+    className: OpenXRLoader
+  - hash:
+      serializedVersion: 2
+      Hash: cdfecec6ce9cf63217d98c62c7f4794d
+    assemblyName: Ultraleap.Tracking.Core.dll
+    namespaceName: Leap.Unity
+    className: Detector
+  - hash:
+      serializedVersion: 2
+      Hash: 659d6ceab26f9e4237abaaf29249f293
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Bunny
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseUpAsButtonMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 8d35f16c5022311c6f4d9432be73bfcf
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerIndirectFloatField
+  - hash:
+      serializedVersion: 2
+      Hash: 6663435805926faf16934aed992cd26b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: Benchmark03
+  - hash:
+      serializedVersion: 2
+      Hash: 6e573de79bd8b7389f9d2a31e8c4e44b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Capsule
+  - hash:
+      serializedVersion: 2
+      Hash: c4985476ee59b6cd73ed9978ece85d0b
+    assemblyName: Ultraleap.Tracking.Aggregation.dll
+    namespaceName: 
+    className: VisualizeJointConfidence
+  - hash:
+      serializedVersion: 2
+      Hash: f7858108331b563fb41b80b729297acd
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: c1d26b2373ba1fb629e692fdfbdae7a1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ZEDTransformController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering
+    className: DebugUpdater
+  - hash:
+      serializedVersion: 2
+      Hash: 89229a620f85ef21de336ab85a13d351
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerCanvas
+  - hash:
+      serializedVersion: 2
+      Hash: d2ec9b531bf855778f71c8a0c8661a5d
+    assemblyName: Ultraleap.Tracking.Aggregation.dll
+    namespaceName: Leap.Unity
+    className: AggregationProviderAngularInterpolation
+  - hash:
+      serializedVersion: 2
+      Hash: 287a4aa7392bcfb309b4d7b4dc89eb3c
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: PlayerInputEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 94be6aacf641f97c1c01523244d7d9ff
+    assemblyName: Ultraleap.Tracking.InteractionEngine.dll
+    namespaceName: Leap.Unity.Interaction
+    className: InteractionHand
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.UI.Editor
+    className: InputSystemUIInputModuleEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 4fd8bf02e3089425d3502e26c44ba31a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.XR.OpenXR.dll
+    namespaceName: UnityEngine.XR.OpenXR
+    className: OpenXRLoaderNoPreInit
+  - hash:
+      serializedVersion: 2
+      Hash: f79e983672d079ff24eee15484fb74b8
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerColor
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputActionAssetEditor
+  - hash:
+      serializedVersion: 2
+      Hash: d19bf532b3cd2f08771a074be3c26cad
+    assemblyName: Ultraleap.Tracking.Core.dll
+    namespaceName: Leap.Unity
+    className: CapsuleHand
+  - hash:
+      serializedVersion: 2
+      Hash: bd3f0ca738703903e759f77536ed74fd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TMP_FrameRateCounter
+  - hash:
+      serializedVersion: 2
+      Hash: 361f3edf1c87ede3c7d7eacefea855e0
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: FilmGrain
+  - hash:
+      serializedVersion: 2
+      Hash: 7d613fb9f8081577dc8edc00b80a97e2
+    assemblyName: Ultraleap.Tracking.Controllers.dll
+    namespaceName: Leap.Unity.Controllers
+    className: ControllerPostProcess
+  - hash:
+      serializedVersion: 2
+      Hash: 303f7f6e271a00174fd481fc71797459
+    assemblyName: Ultraleap.Tracking.HandRays.dll
+    namespaceName: Leap.Unity.Preview.HandRays
+    className: PalmWristShoulderHandRay
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Ultraleap.Tracking.InteractionEngine.dll
+    namespaceName: Leap.Unity.Interaction
+    className: DefaultXRNodeTrackingProvider
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 3716737545ca8ac569ceeeb4a99030ec
+    assemblyName: Ultraleap.Tracking.InteractionEngine.dll
+    namespaceName: Leap.Unity.Interaction
+    className: InteractionXRController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.XR.Oculus.dll
+    namespaceName: Unity.XR.Oculus
+    className: OculusLoader
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 599dfa6be58885c6eb1c144c98537c94
+    assemblyName: Ultraleap.Tracking.HandRays.dll
+    namespaceName: Leap.Unity.Preview.HandRays
+    className: HandRayRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: 80f8a50496b357c5d1bb9149cc72d487
+    assemblyName: Ultraleap.Tracking.Core.dll
+    namespaceName: Leap.Unity.Attachments
+    className: AttachmentHandEnableDisable
+  - hash:
+      serializedVersion: 2
+      Hash: 845f8b1f258ea54007c44dc964e634ea
+    assemblyName: Ultraleap.Tracking.Hands.dll
+    namespaceName: Leap.Unity.HandsModule
+    className: ShowArm
+  - hash:
+      serializedVersion: 2
+      Hash: 87ff43d2baf3385cba327d8f803a4ebb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerDownMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnScrollRectValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: e3e6ff2441f0237dcdb0a9cd23b6c932
+    assemblyName: Ultraleap.Tracking.HandRays.dll
+    namespaceName: Leap.Unity.Preview.HandRays
+    className: InferredBodyPositions
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: RemoteTestResultSender
+  - hash:
+      serializedVersion: 2
+      Hash: 134322c9293c1896357cce271b819ce4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 3e8a8e9e1bab64485666eea570c262a9
+    assemblyName: Ultraleap.Tracking.InteractionEngine.dll
+    namespaceName: Leap.Unity.Interaction
+    className: AnchorableBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: f24798f6892bf473823bbf1bf0cc159a
+    assemblyName: Unity.XR.OpenXR.Features.MockRuntime.dll
+    namespaceName: UnityEngine.XR.OpenXR.Features.Mock
+    className: MockRuntime
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Leap.Unity.InteractionEngine.Examples
+    className: SimpleTransformUtil
+  - hash:
+      serializedVersion: 2
+      Hash: 5a16b0fadbae9619bf6f1a7dbd956140
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BellyMenu
+  - hash:
+      serializedVersion: 2
+      Hash: ffe4d4b94010c81556cfa26d6efebd7d
+    assemblyName: Ultraleap.Tracking.UIInput.dll
+    namespaceName: Leap.Unity.InputModule
+    className: PhysicsUI
+  - hash:
+      serializedVersion: 2
+      Hash: a1ca1237bad0f30ea5ba8f4060929114
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TMP_TextSelector_B
+  - hash:
+      serializedVersion: 2
+      Hash: 8f107d9fb56e792e1839e2bf977847cd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: HideFromWrongCameras
+  - hash:
+      serializedVersion: 2
+      Hash: fbae0ce7f1c653c45de79791fa1f28e4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GettingStartedExampleManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMoveMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: ce46c87ede95ddd711d94d07c476acbb
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: PostProcessData
+  - hash:
+      serializedVersion: 2
+      Hash: 89b2906879e76b50266949198ecada41
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.UI
+    className: InputSystemUIInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 040dd48e3a027d5424519a5fa2009df4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: b9e33373aaeb420445ccc9161d1b9e71
+    assemblyName: Ultraleap.Tracking.Locomotion.dll
+    namespaceName: Leap.Unity.Preview.Locomotion
+    className: PinchToTeleport
+  - hash:
+      serializedVersion: 2
+      Hash: 0ec14e71b8424a9aaef93058d349d695
+    assemblyName: Ultraleap.Tracking.HandRays.dll
+    namespaceName: Leap.Unity.Preview.HandRays
+    className: EyePinchHandRay
+  - hash:
+      serializedVersion: 2
+      Hash: fe1080a47424fcd6eb9d2fc078dce299
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: PaniniProjection
+  - hash:
+      serializedVersion: 2
+      Hash: 9d0ad611dd2269a92ca979f4096aad83
+    assemblyName: Ultraleap.Tracking.PhysicsHands.dll
+    namespaceName: Leap.Unity.Interaction.PhysicsHands
+    className: PhysicsBone
+  - hash:
+      serializedVersion: 2
+      Hash: 893dbdbfe611d62e230a686ea89f1efd
+    assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
+    namespaceName: UnityEngine.XR.LegacyInputHelpers
+    className: SwingArmModel
+  - hash:
+      serializedVersion: 2
+      Hash: 7f09997120a973b5b048de4b3a4ffe0d
+    assemblyName: Ultraleap.Tracking.HandRays.dll
+    namespaceName: Leap.Unity.Preview.HandRays
+    className: TransformWristShoulderHandRay
+  - hash:
+      serializedVersion: 2
+      Hash: 0e85becf20eaf03391a8a5ef8f7dc661
+    assemblyName: Ultraleap.Tracking.UIInput.dll
+    namespaceName: Leap.Unity.InputModule
+    className: PointerElement
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseUpMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: e63944317d2f5958e31963668bb29158
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: VertexZoom
+  - hash:
+      serializedVersion: 2
+      Hash: ffd17cc0ff6f33c61e14cd8788169a43
+    assemblyName: Ultraleap.Tracking.Core.dll
+    namespaceName: Leap.Unity.RuntimeGizmos
+    className: RuntimeGizmoManager
+  - hash:
+      serializedVersion: 2
+      Hash: ea41fa959037983f32ebd7c70de46554
+    assemblyName: Unity.XR.OpenXR.dll
+    namespaceName: UnityEngine.XR.OpenXR.Features.Interactions
+    className: ValveIndexControllerProfile
+  - hash:
+      serializedVersion: 2
+      Hash: 36025d42bf23fda83a55bf1429201821
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerFoldout
+  - hash:
+      serializedVersion: 2
+      Hash: 5dca22cb0b986a0b9b80c983620c974f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LaserShot_Player
+  - hash:
+      serializedVersion: 2
+      Hash: c1344b19f4ed12f9b9ddf97642557979
+    assemblyName: Unity.XR.OpenXR.Features.OculusQuestSupport.dll
+    namespaceName: UnityEngine.XR.OpenXR.Features.OculusQuestSupport
+    className: OculusQuestFeature
+  - hash:
+      serializedVersion: 2
+      Hash: 010ef95a4111756eccf89147778bf1e7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ZEDRenderingPlane
+  - hash:
+      serializedVersion: 2
+      Hash: bf3d0dcbc26fcc64ea9696d3babe8118
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LookAtCameraPartialAxis
+  - hash:
+      serializedVersion: 2
+      Hash: a10be11b9091eb7648c1e1ff8d82df89
+    assemblyName: Ultraleap.Tracking.PhysicsHands.dll
+    namespaceName: Leap.Unity.Interaction.PhysicsHands
+    className: PhysicsGhostHand
+  - hash:
+      serializedVersion: 2
+      Hash: 99ddbf3aa445e2f8e653208c7ef50fd4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Leap.Unity.Examples
+    className: ExplodingItem
+  - hash:
+      serializedVersion: 2
+      Hash: 0d85f4fda1e0e70cd92c084d12f05cdc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Leap.InteractionEngine.Examples
+    className: MovePoseExample
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnSliderValueChangedMessageListener
+  platform: 19
+  scenePathNames:
+  - Assets/Scenes/SampleScene.unity
+  playerPath: C:/Users/e9255/OneDrive/Desktop/Unity project/TableADA/Build Prototypes
+    -/FoodForLove.exe
